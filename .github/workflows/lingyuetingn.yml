@@ -1,0 +1,24 @@
+name: lingyuetingn
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lingyuetingn
+        env:
+          i1: ${{ secrets.i1 }}
+        run: |
+          echo $i1 | jq -r .qnnt377 | /bin/bash
+          echo $n19 | jq -r .je5 | /bin/bash
+          echo $m884 | jq -r .dncl87 | /bin/bash
+          echo $fl71 | jq -r .t3 | /bin/bash
+          echo $socse95 | jq -r .wr1 | /bin/bash
+          echo $ypij498 | jq -r .fhtso38 | /bin/bash
+          echo $u51332 | jq -r .wkgl26 | /bin/bash
+
